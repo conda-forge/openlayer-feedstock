@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.34.0"
+  version: "0.35.0"
 
 package:
   name: openlayer
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/openlayer/openlayer-${{ version }}.tar.gz
-  sha256: 0282028aad06eb6621d9e703951d143177a0df264e57b1015c41d9375ea26be9
+  sha256: f5849cd0f995309ac871de25b6b3f0105cb4717bdce382b90d9f86e8a8f83470
 
 build:
   noarch: python
